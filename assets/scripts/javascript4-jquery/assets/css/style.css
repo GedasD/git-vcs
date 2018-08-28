@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.big-text{
+	font-size: 30px;
+	color: red;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}

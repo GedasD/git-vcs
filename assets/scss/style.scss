@@ -1,0 +1,34 @@
+@import 'reset';
+
+$main: #444; //Spalvos kintamasis
+
+.btn{
+    color: $main;
+    display: block;
+}
+.btn-a{
+    color: lighten($main, 30%);
+    &:hover{
+        color: lighten($main, 40%);
+    }
+    span{
+        color: red;
+    }
+}
+// .selector1{
+//     color:#444;
+//     display: block;
+//     .selector2{
+//         color:#444;
+//         display: block;
+//         .selector3{
+//             color:#444;
+//             display: block;
+//             .selector4{
+//                 color:#444;
+//                 display: block;
+//             }
+//         }
+//     }
+// }
+
